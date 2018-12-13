@@ -1,0 +1,31 @@
+
+h1{
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-decoration: underline;
+}
+
+
+li a {
+    display: inline-block;
+    padding: 12px 14px;
+    text-decoration:none;
+    color:white;
+    font-size: 40px;
+    width: 5em;
+  }
+
+ul{
+    list-style-type:none;
+}
+
+.mainNav{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+    background-image: url('giphy.gif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
