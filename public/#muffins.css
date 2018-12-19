@@ -1,0 +1,26 @@
+h1{
+    color:orange;
+    font-size: 8em;
+    }
+h2{
+    color: orange;
+    font-size: 5em;
+    text-decoration: underline;
+    }
+    
+h3{
+    color: orange;
+    font-size:3em;
+    }
+    
+.muffinS{
+    width: 300px;
+    height: 300px;
+    }
+body{
+    background: url('/muffinbk.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    position: relative;
+    }

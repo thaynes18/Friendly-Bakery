@@ -7,12 +7,14 @@
     <link href="cookies.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-  <center> <h1> Cookies </h1> </center>
-    
-    <% for cookies in @@allCookies %>
-        <h2> <%= cookies.name_of_cookie %> </h2>
-        <p> <%= cookies.description %> </p>
-    <% end %>
-    
+  <center> 
+    <h1> Cookies </h1> 
+  </center>
+  <% @@cookiesArray.each do |cookie|%>
+    <h2> <%= cookie.name_of_cookie %> </h2>
+        <img class="cookieS" src=" <%= cookie.image_cookie %>">
+        <h3> <%= cookie.description %> </h3>
+        <h3> <%= cookie.price %> </h3>
+   <%end %>     
 </body>
 </html>

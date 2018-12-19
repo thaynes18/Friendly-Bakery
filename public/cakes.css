@@ -1,0 +1,28 @@
+h1{
+    color:rgb(241, 148, 163);
+    font-size: 8em;
+    }
+    
+    h2{
+    color: rgb(241, 148, 163);
+    font-size: 5em;
+    text-decoration: underline;
+    }
+    
+    h3{
+    color:rgb(241, 148, 163);
+    font-size:3em;
+    }
+    
+    .cakeS{
+        width: 300px;
+        height: 300px;
+    }
+    body{
+        background: url('/cakebk.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center; 
+        position: relative;
+        
+    }

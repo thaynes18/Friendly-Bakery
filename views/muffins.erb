@@ -7,6 +7,16 @@
     <link href="muffins.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+<center> 
+    <h1> Muffins </h1> 
+<br>
+  <% @@muffinsArray.each do |muffin|%>
+    <h2> <%= muffin.name_of_muffin %> </h2>
+        <img class="muffinS" src="<%= muffin.image_muffin %>">
+        <h3> <%= muffin.description %> </h3>
+        <h3> <%= muffin.price %> </h3>
+   <%end %> 
+</center>    
     
 </body>
 </html>

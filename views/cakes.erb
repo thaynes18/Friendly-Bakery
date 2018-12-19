@@ -7,6 +7,15 @@
     <link href="cakes.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    
+<center> 
+    <h1> Cakes </h1> 
+<br>
+  <% @@cakesArray.each do |cake|%>
+    <h2> <%= cake.name_of_cake %> </h2>
+        <img class="cakeS" src="<%= cake.image_cake %>">
+        <h3> <%= cake.description %> </h3>
+        <h3> <%= cake.price %> </h3>
+   <%end %> 
+</center>    
 </body>
 </html>
